@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,25 +9,34 @@
   <style>
     html {
       font-size: 62.5%;
+      /* 1rem = 16px  si el font size del html es 16px, 62.5% = 10px, 100% = 16px  */
     }
+
     body {
       margin: 0;
     }
+
     div {
       width: 100px;
       height: 100px;
       background: pink;
     }
+
     p {
       font-size: 3rem;
+      /* rem es relativo al font size del html 1rem = 16px  si el font size del html es 16px, 3rem = 48px en este caso el font size del html es 10px por lo de arriba */
     }
+
     .container {
       width: 100vw;
+      /* vw es relativo al viewport width 1vw = 1% del ancho de la pantalla  si el ancho de la pantalla es 1000px, 100vw = 1000px */
       height: 100vh;
+      /* vh es relativo al viewport height 1vh = 1% del alto de la pantalla  si el alto de la pantalla es 1000px, 100vh = 1000px */
       background: plum;
     }
   </style>
 </head>
+
 <body>
   <div>Plazi</div>
   <p>Master</p>
@@ -34,4 +44,5 @@
 
   </div>
 </body>
+
 </html>
